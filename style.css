@@ -1,0 +1,59 @@
+body{
+    background: #FDDE7E;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+
+.cards>div{
+    width: 156px;
+    background-color: #ffffff;    
+    margin: 15px;
+    padding-left: 102px;
+    padding-right: 102px;    
+    font-family: "Roboto Condensed";
+    text-align: center;
+    color: #333333;
+}
+
+.coffee_bronze, .coffee_silver{    
+    height: 363px;
+    padding-top: 42px;
+    padding-bottom: 36px;
+}
+
+.coffee_gold{
+    height: 393px;
+    padding-top: 52px;
+    padding-bottom: 55px;
+}
+    
+.cards h1{
+    font-size: 56px;
+    margin: 0px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+.cards h2{
+    color: #02995b;
+    font-size: 50px;
+    margin: 0px;   
+    padding-bottom: 23px; 
+}
+
+.cards p{
+    font-size: 20px;
+    margin: 0px;
+    
+}
+.coffee_gold h2{
+    padding-bottom: 43px;
+}
+.coffee_gold h1{
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
